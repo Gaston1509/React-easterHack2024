@@ -1,12 +1,10 @@
 import "./App.css";
-import ComponentePrimero from "./ComponentePrimero";
+import ComponentePrimero from "./Components/ComponentePrimero/ComponentePrimero";
 
 function App() {
   return (
     <>
       <div className="contenedor">
-        <h1>Hola desde App</h1>
-        <p>------</p>
         <ComponentePrimero />
       </div>
     </>
