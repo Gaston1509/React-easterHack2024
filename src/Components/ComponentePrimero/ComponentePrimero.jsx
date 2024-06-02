@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./componentePrimero.css";
 
-const LoginComponent = () => {
+const ComponentePrimero = () => {
   const [usuario, setUsuario] = useState("");
   const [pass, setPass] = useState("");
   const [mensaje, setMensaje] = useState("");
@@ -38,4 +38,4 @@ const LoginComponent = () => {
   );
 };
 
-export default LoginComponent;
+export default ComponentePrimero;
