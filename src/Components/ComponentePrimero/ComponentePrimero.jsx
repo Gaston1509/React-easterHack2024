@@ -8,9 +8,9 @@ const ComponentePrimero = () => {
 
   const handleClick = () => {
     if (usuario === "Gaston" && pass === "1234") {
-      setMensaje(`Bienvenido `);
+      setMensaje(`Bienvenido ` + usuario);
     } else {
-      setMensaje("Credenciales incorrectas.");
+      setMensaje("Datos incorrectas.");
     }
   };
 
@@ -25,7 +25,7 @@ const ComponentePrimero = () => {
 
   return (
     <div className="container">
-      <h1>Hola: {usuario} </h1>
+      <h1>Hola: {usuario}</h1>
       <label htmlFor="usuario">Usuario:</label>
       <input type="text" name="usuario" id="usuario" onChange={handleChange} />
       <br />
@@ -33,7 +33,7 @@ const ComponentePrimero = () => {
       <input type="password" name="pass" id="pass" onChange={handleChange} />
       <br />
       <button onClick={handleClick}>Ingresar</button>
-      <p>{mensaje}</p>
+      <h2>{mensaje}</h2>
     </div>
   );
 };

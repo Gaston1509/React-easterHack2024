@@ -3,15 +3,20 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: #bdbdbd;
+  color: #757575;
+  border: solid 1px #607d8b;
+  box-shadow: 10px 10px 5px 0px rgba(65, 63, 63, 0.75);
+  border-radius: 20px;
+  padding: 3rem;
 }
 input {
   width: 14rem;
   padding: 0.5rem;
   border-radius: 10px;
 }
+
 button {
   margin-top: 1rem;
-}
-h1 {
-  color: #605a5a;
+  color: #757575;
 }
