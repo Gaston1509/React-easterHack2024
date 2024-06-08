@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  width: 100%;
+  margin: 0;
+}
+.cambio {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  background-color: #757575 !important;
+}
+.new {
+  display: flex;
+  /* justify-content: center; */
+  width: 100%;
+}
+
+.color {
+  color: #ffffff !important;
+}

@@ -1,16 +1,10 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./contenedores/Home";
+import Contacto from "./contenedores/Contacto";
 import "./App.css";
-import ComponentePrimero from "./Components/ComponentePrimero/ComponentePrimero";
-import Counter from "./Components/Counter/Counter";
 
 function App() {
-  return (
-    <>
-      <div className="contenedor">
-        <ComponentePrimero />
-        {/* <Counter /> */}
-      </div>
-    </>
-  );
+  return <div></div>;
 }
 
 export default App;
